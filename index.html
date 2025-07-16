@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalistowen Bie | Mahasiswa Teknologi Informasi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark-mode">
+    <audio id="background-music" loop>
+      <source src="ssstik.io_1752335074730.mp3" type="audio/mpeg" />
+      Browser Anda tidak mendukung elemen audio.
+    </audio>
+    <button id="music-toggle" class="music-player-hero">
+      <i class="fas fa-volume-mute"></i>
+    </button>
+
+    <header id="navbar">
+      <a href="#home" class="logo">Kalistowen B.</a>
+      <nav class="nav-links">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#resume" class="nav-item">Resume</a>
+        <a href="#portfolio" class="nav-item">Portfolio</a>
+        <a href="#certificates" class="nav-item">Sertifikat</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle"><i class="fas fa-sun"></i></button>
+        <div id="hamburger-menu" class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+          <h1 id="hero-heading">Hello, I'm Kalistowen Bie</h1>
+          <p class="dark-on-hover">Mahasiswa Teknologi Informasi</p>
+          <div class="hero-buttons">
+            <a href="#resume" class="btn btn-primary">Resume</a>
+            <a href="#portfolio" class="btn btn-secondary">Portfolio</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 data-aos="fade-up">About Me</h2>
+          <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Saya adalah mahasiswa Teknologi Informasi yang penuh semangat,
+              kreatif, dan memiliki rasa ingin tahu tinggi terhadap dunia
+              digital. Ketertarikan saya pada <strong>Cybersecurity</strong>,
+              <strong>Desain Grafis</strong>, dan <strong>Fotografi</strong>
+              mendorong saya untuk terus belajar dan berkembang, serta
+              menciptakan solusi yang tidak hanya aman secara teknologi, tetapi
+              juga estetis dan fungsional. Saya percaya bahwa kombinasi antara
+              keamanan, kreativitas, dan visual yang kuat dapat memberikan
+              dampak positif dalam setiap karya digital yang saya hasilkan.
+            </p>
+
+            <!-- Quote Motivasi -->
+            <blockquote
+              class="quote"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              style="
+                margin-top: 20px;
+                font-style: italic;
+                color: #aaa;
+                border-left: 4px solid #555;
+                padding-left: 15px;
+              "
+            >
+              “Saya memilih orang malas untuk mengerjakan tugas sulit. Karena
+              orang malas akan menemukan cara termudah untuk menyelesaikannya.”
+              <br />
+              — <strong>Bill Gates</strong>
+            </blockquote>
+
+            <!-- Kontak -->
+            <div class="contact-info" data-aos="fade-up" data-aos-delay="300">
+              <span><i class="fas fa-envelope"></i> kalistowenb@email.com</span>
+              <span
+                ><i class="fas fa-map-marker-alt"></i> Banjarmasin,
+                Indonesia</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume-section">
+        <div class="container">
+          <h2 data-aos="fade-up">Resume</h2>
+          <div class="resume-grid">
+            <!-- KOLOM KIRI -->
+            <div class="resume-col" data-aos="fade-right">
+              <h3>Software & Design Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <img src="assets/logo/lightroom.png" alt="Logo Lightroom" />
+                  <span>Lightroom</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/logo/figma2.png" alt="Logo Figma" />
+                  <span>Figma</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/logo/canva.png" alt="Logo Canva" />
+                  <span>Canva</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/logo/pixelab.png" alt="Logo Pixelab" />
+                  <span>Pixelab</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/logo/capcut.png" alt="Logo Capcut" />
+                  <span>Capcut</span>
+                </div>
+                <div class="skill-item">
+                  <img src="assets/logo/wireshark.png" alt="Logo Wireshark" />
+                  <span>Wireshark</span>
+                </div>
+              </div>
+
+              <h3>Programming & Technical Skills</h3>
+              <div class="skill-tags">
+                <span>PHP(Basic)</span>
+                <span>SQL(Basic)</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript(Basic)</span>
+                <span>UI/UX Design</span>
+                <span>Web Development(Basic)</span>
+                <span>Network Security</span>
+              </div>
+
+              <h3>Languages</h3>
+              <div class="skill-tags">
+                <span>Bahasa Indonesia (Native)</span>
+                <span>English (Basic)</span>
+              </div>
+            </div>
+
+            <!-- KOLOM KANAN -->
+            <div class="resume-col" data-aos="fade-left">
+              <h3>Project Experience</h3>
+
+              <div class="experience-item">
+                <h4>Website COBIT Framework</h4>
+                <p><em>Web Development Project | 2024</em></p>
+                <p>
+                  Mengembangkan sistem web COBIT unutk Tata kelola It
+                  menggunakan PHP dan SQL(Team)
+                </p>
+              </div>
+
+              <div class="experience-item">
+                <h4>UI/UX Mobile App Design</h4>
+                <p><em>Design Project | 2024</em></p>
+                <p>
+                  Merancang antarmuka pengguna dan pengalaman pengguna untuk
+                  aplikasi mobile menggunakan Figma.
+                </p>
+              </div>
+
+              <div class="experience-item">
+                <h4>Analisis Keamanan Jaringan</h4>
+                <p><em>Cybersecurity Project | 2024</em></p>
+                <p>
+                  Melakukan simulasi penetration testing dan analisis kerentanan
+                  sistem untuk memberikan rekomendasi keamanan.
+                </p>
+              </div>
+
+              <h3>Training</h3>
+              <div class="experience-item">
+                <h4>Junior Cybersecurity Training</h4>
+                <p>
+                  <em
+                    >mengikuti pelatihan Junior Cyber Security dari program VSGA
+                    – Digital Talent Scholarship 2024, yang mengajarkan
+                    dasar-dasar keamanan siber dan ditutup dengan uji praktik
+                    berbasis SKKNI. | 2024</em
+                  >
+                </p>
+                <p>
+                  mengikuti pelatihan SIAGA untuk memahami simulasi dan
+                  penanganan kondisi darurat. |2025
+                </p>
+              </div>
+
+              <h3>Education</h3>
+              <div class="experience-item">
+                <h4>S1 Teknologi Informasi</h4>
+                <p>
+                  <em>Universitas Sari Mulia | 2023 - Sekarang</em>
+                </p>
+                <p>Focus: Cyber Security, UI/UX Design</p>
+              </div>
+
+              <h3>Hobbies & Interests</h3>
+              <div class="hobbies">
+                <span><i class="fas fa-camera"></i> Fotografi</span>
+                <span><i class="fas fa-palette"></i> Desain</span>
+                <span><i class="fas fa-shield-alt"></i>basketball sport</span>
+                <span><i class="fas fa-music"></i> Musik</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio-section">
+        <div class="container">
+          <h2 data-aos="fade-up">Portfolio</h2>
+          <div class="filter-buttons" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cybersecurity">
+              Cybersecurity
+            </button>
+            <button class="filter-btn" data-filter="design">
+              Graphic Design
+            </button>
+            <button class="filter-btn" data-filter="photography">
+              Photography
+            </button>
+            <button class="filter-btn" data-filter="development">
+              Development
+            </button>
+          </div>
+
+          <div class="portfolio-grid" data-aos="fade-up">
+            <!-- === ALL MODE PREVIEWS === -->
+            <div class="portfolio-item cybersecurity">
+              <img
+                src="assets/cyber/thumb1.jpg"
+                alt="Cybersecurity Ringkasan"
+              />
+              <div class="portfolio-overlay">
+                <h3>Network Analysis (Preview)</h3>
+              </div>
+            </div>
+
+            <div class="portfolio-item design">
+              <img src="assets/design/thumb1.jpg" alt="Desain Ringkasan" />
+              <div class="portfolio-overlay">
+                <h3>UI/UX App Design (Preview)</h3>
+              </div>
+            </div>
+
+            <div class="portfolio-item photography">
+              <img
+                src="assets/photograpy/gambar1.jpeg"
+                alt="Fotografi Ringkasan"
+              />
+              <div class="portfolio-overlay">
+                <h3>Street Photography (Preview)</h3>
+              </div>
+            </div>
+
+            <div class="portfolio-item development">
+              <img
+                src="assets/development/thumb1.jpg"
+                alt="Development Ringkasan"
+              />
+              <div class="portfolio-overlay">
+                <h3>COBIT Website (Preview)</h3>
+              </div>
+            </div>
+
+            <!-- === PHOTOGRAPHY FULL (16 FOTO) === -->
+            <div class="portfolio-item photography">
+              <img src="assets/photograpy/gambar2.jpeg" alt="Foto 2" />
+              <div class="portfolio-overlay"><h3>Foto 2</h3></div>
+            </div>
+            <div class="portfolio-item photography">
+              <img src="assets/photograpy/gambar3.jpeg" alt="Foto 3" />
+              <div class="portfolio-overlay"><h3>Foto 3</h3></div>
+            </div>
+            <!-- Tambahkan sampai gambar16.jpeg -->
+            <div class="portfolio-item photography">
+              <img src="assets/photograpy/gambar16.jpeg" alt="Foto 16" />
+              <div class="portfolio-overlay"><h3>Foto 16</h3></div>
+            </div>
+
+            <!-- === CYBERSECURITY FULL === -->
+            <div class="portfolio-item cybersecurity">
+              <img src="assets/cyber/cyber2.jpg" alt="Cyber 2" />
+              <div class="portfolio-overlay"><h3>Phishing Simulation</h3></div>
+            </div>
+            <div class="portfolio-item cybersecurity">
+              <img src="assets/cyber/cyber3.jpg" alt="Cyber 3" />
+              <div class="portfolio-overlay"><h3>Firewall Log Audit</h3></div>
+            </div>
+
+            <!-- === DESIGN FULL === -->
+            <div class="portfolio-item design">
+              <img src="assets/design/design2.jpg" alt="Design 2" />
+              <div class="portfolio-overlay"><h3>Mobile Branding</h3></div>
+            </div>
+            <div class="portfolio-item design">
+              <img src="assets/design/design3.jpg" alt="Design 3" />
+              <div class="portfolio-overlay"><h3>Landing Page UI</h3></div>
+            </div>
+
+            <!-- === DEVELOPMENT FULL === -->
+            <div class="portfolio-item development">
+              <img src="assets/development/dev2.jpg" alt="Dev 2" />
+              <div class="portfolio-overlay"><h3>Login System UI</h3></div>
+            </div>
+            <div class="portfolio-item development">
+              <img src="assets/development/dev3.jpg" alt="Dev 3" />
+              <div class="portfolio-overlay"><h3>Dashboard Backend</h3></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificates" class="certificates-section">
+        <div class="container">
+          <h2 data-aos="fade-up">Sertifikat</h2>
+          <div
+            class="certificate-timeline"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="timeline-item">
+              <div class="timeline-icon"><i class="fas fa-shield-alt"></i></div>
+              <div class="timeline-content">
+                <h4>Intro to Ethical Hacking</h4>
+                <p>Cisco Networking Academy</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-object-group"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>UI/UX Design Fundamentals</h4>
+                <p>Google Career Certificates</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon"><i class="fab fa-python"></i></div>
+              <div class="timeline-content">
+                <h4>Python for Security</h4>
+                <p>Dicoding Indonesia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="social-media">
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p>© 2025 Kalistowen Bie | Mahasiswa TI</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
